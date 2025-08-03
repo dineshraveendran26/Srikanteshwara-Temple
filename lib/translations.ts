@@ -5,7 +5,10 @@ export interface Translations {
   home: string
   events: string
   gallery: string
+  sevas: string
   history: string
+  management: string
+  communityHall: string
   donate: string
 
   // Hero Section
@@ -114,8 +117,7 @@ export interface Translations {
   gallerySubtitle: string
   temple: string
   festivals: string
-  rituals: string
-  videos: string
+  galleryHistory: string
 
   // History Page
   historyOfTemple: string
@@ -150,12 +152,15 @@ export const translations: Record<Language, Translations> = {
     home: "Home",
     events: "Events",
     gallery: "Gallery",
+    sevas: "Sevas",
     history: "History",
+    management: "Management",
+    communityHall: "Community Hall",
     donate: "Donate",
 
     // Hero Section
-    templeName: "Sri Srikanateshwara Temple",
-    templeAddress: "Chennamankere Achukattu, Banashankari 3rd Phase, Bengaluru 560 085",
+    templeName: "Sri SriKanteshwara Temple",
+    templeAddress: "Chennammanakere Achukattu, Banashankari 3rd Phase, Bengaluru 560 085",
     templePhone: "080-2598 6509",
     whatsapp: "WhatsApp",
     templeTimings: "Temple Timings",
@@ -259,8 +264,7 @@ export const translations: Record<Language, Translations> = {
     gallerySubtitle: "Glimpses of divine moments, sacred celebrations, and spiritual heritage",
     temple: "Temple",
     festivals: "Festivals",
-    rituals: "Rituals",
-    videos: "Videos",
+    galleryHistory: "History",
 
     // History Page
     historyOfTemple: "History of Shri Shrikantheshwara Swami Temple",
@@ -294,7 +298,10 @@ export const translations: Record<Language, Translations> = {
     home: "ಮುಖಪುಟ",
     events: "ಕಾರ್ಯಕ್ರಮಗಳು",
     gallery: "ಚಿತ್ರಶಾಲೆ",
+    sevas: "ಸೇವೆಗಳು",
     history: "ಚರಿತ್ರೆ",
+    management: "ಮಾನೇಜನೆ",
+    communityHall: "ಸಮುದಾಯ ಹಲ್ಲು",
     donate: "ದಾನ",
 
     // Hero Section
@@ -403,8 +410,7 @@ export const translations: Record<Language, Translations> = {
     gallerySubtitle: "ದೈವಿಕ ಕ್ಷಣಗಳ, ಪವಿತ್ರ ಆಚರಣೆಗಳ ಮತ್ತು ಆಧ್ಯಾತ್ಮಿಕ ಪರಂಪರೆಯ ಒಂದು ನೋಟ",
     temple: "ದೇವಸ್ಥಾನ",
     festivals: "ಹಬ್ಬಗಳು",
-    rituals: "ವಿಧಿಗಳು",
-    videos: "ವೀಡಿಯೊಗಳು",
+    galleryHistory: "ಇತಿಹಾಸ",
 
     // History Page
     historyOfTemple: "ಶ್ರೀ ಶ್ರೀಕಂಠೇಶ್ವರಸ್ವಾಮಿ ದೇವಸ್ಥಾನದ ಇತಿಹಾಸ",

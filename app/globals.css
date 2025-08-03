@@ -4,6 +4,11 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Kannada:wght@300;400;500;600;700&display=swap');
 
+/* CSS Loading Verification - This ensures styles are loaded */
+:root {
+  --css-loaded: true;
+}
+
 @layer base {
   :root {
     --background: 0 0% 100%;
@@ -83,4 +88,16 @@
 
 .hover\:bg-saffron\/90:hover {
   background-color: hsl(var(--saffron) / 0.9);
+}
+
+/* Ensure CSS is loaded */
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 1px;
+  height: 1px;
+  background: transparent;
+  z-index: -1;
 }

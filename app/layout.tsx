@@ -7,6 +7,7 @@ import { cn } from "@/lib/utils"
 import type { Metadata } from "next"
 import { Noto_Serif, Poppins } from "next/font/google"
 import "./globals.css"
+import CSSVerification from "@/components/css-verification"
 
 const notoSerif = Noto_Serif({
   subsets: ["latin"],
@@ -22,12 +23,12 @@ const poppins = Poppins({
 })
 
 export const metadata: Metadata = {
-  title: "Sri Srikanateshwara Temple - Divine Abode of Lord Shiva",
+  title: "Sri Kanteshwara Temple - Divine Abode of Lord Shiva",
   description:
-    "Experience divine blessings at Sri Srikanateshwara Temple. Join us for daily darshan, special events, and spiritual ceremonies dedicated to Lord Shiva.",
+    "Experience divine blessings at Sri SriKanteshwara Temple. Join us for daily darshan, special events, and spiritual ceremonies dedicated to Lord Shiva.",
   keywords:
-    "Hindu temple, Lord Shiva, Srikanateshwara, spiritual, darshan, puja, meditation, Om Namah Shivaya, Kannada temple",
-    generator: 'v0.dev'
+    "Hindu temple, Lord Shiva, SriKanteshwara, spiritual, darshan, puja, meditation, Om Namah Shivaya, Kannada temple",
+  generator: 'v0.dev'
 }
 
 export default function RootLayout({
@@ -38,6 +39,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body className={cn("min-h-screen bg-background font-sans antialiased", notoSerif.variable, poppins.variable)}>
+        <CSSVerification />
         <ThemeProvider attribute="class" defaultTheme="light" enableSystem={false} disableTransitionOnChange>
           <LanguageProvider>
             <Header />

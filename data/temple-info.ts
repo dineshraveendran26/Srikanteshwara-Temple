@@ -1,9 +1,9 @@
 import { TempleInfo, Deity } from '@/types'
 
 export const templeInfo: TempleInfo = {
-  name: "Sri Srikanateshwara Temple",
+  name: "Sri SriKanteshwara Temple",
   sanskritName: "ಶ್ರೀ ಶ್ರೀಕಂಠೇಶ್ವರಸ್ವಾಮಿ ದೇವಸ್ಥಾನ",
-  address: "Chennamankere Achukattu, Banashankari 3rd Phase, Bengaluru 560 085",
+  address: "Chennammanakere Achukattu, Banashankari 3rd Phase, Bengaluru 560 085",
   phone: "080-2598 6509",
   whatsapp: "+91 9632303429",
   timings: "7.00 AM to 11.00 AM, 6.00 PM to 8.30 PM",

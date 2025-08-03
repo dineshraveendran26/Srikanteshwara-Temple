@@ -22,13 +22,13 @@ export default function EventsSection() {
           {/* Third Calendar Image - Clickable (Now First Position) */}
           <ImageModal
             src="/images/temple-calendar-3.jpg"
-            alt="Sri Srikanateshwara Temple Events Calendar 2025-2026 - December to March"
+            alt="Sri SriKanteshwara Temple Events Calendar 2025-2026 - December to March"
             className="overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-all duration-300"
             trigger={
               <div className="relative overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 bg-white p-4 group">
                 <Image
                   src="/images/temple-calendar-3.jpg"
-                  alt="Sri Srikanateshwara Temple Events Calendar 2025-2026 - December to March"
+                  alt="Sri SriKanteshwara Temple Events Calendar 2025-2026 - December to March"
                   width={400}
                   height={600}
                   className="w-full h-auto object-contain rounded-lg transition-transform duration-300 group-hover:scale-105"
@@ -51,13 +51,13 @@ export default function EventsSection() {
           {/* Second Calendar Image - Clickable (Middle Position Unchanged) */}
           <ImageModal
             src="/images/temple-calendar-2.jpg"
-            alt="Sri Srikanateshwara Temple Events Calendar 2025 - August to November"
+            alt="Sri SriKanteshwara Temple Events Calendar 2025 - August to November"
             className="overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-all duration-300"
             trigger={
               <div className="relative overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 bg-white p-4 group">
                 <Image
                   src="/images/temple-calendar-2.jpg"
-                  alt="Sri Srikanateshwara Temple Events Calendar 2025 - August to November"
+                  alt="Sri SriKanteshwara Temple Events Calendar 2025 - August to November"
                   width={400}
                   height={600}
                   className="w-full h-auto object-contain rounded-lg transition-transform duration-300 group-hover:scale-105"
@@ -79,13 +79,13 @@ export default function EventsSection() {
           {/* First Calendar Image - Clickable (Now Third Position) */}
           <ImageModal
             src="/images/temple-calendar-1.jpg"
-            alt="Sri Srikanateshwara Temple Events Calendar 2025 - April to July"
+            alt="Sri SriKanteshwara Temple Events Calendar 2025 - April to July"
             className="overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-all duration-300"
             trigger={
               <div className="relative overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 bg-white p-4 group">
                 <Image
                   src="/images/temple-calendar-1.jpg"
-                  alt="Sri Srikanateshwara Temple Events Calendar 2025 - April to July"
+                  alt="Sri SriKanteshwara Temple Events Calendar 2025 - April to July"
                   width={400}
                   height={600}
                   className="w-full h-auto object-contain rounded-lg transition-transform duration-300 group-hover:scale-105"

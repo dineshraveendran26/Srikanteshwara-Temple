@@ -42,54 +42,12 @@ export default function HistorySection() {
           <div className="relative">
             <div className="absolute inset-0 bg-gradient-to-br from-blue-600/20 to-purple-600/20 rounded-lg"></div>
             <Image
-              src="/images/shiva-lingam.png"
-              alt="Shri Shrikantheshwara Temple - Sacred Shiva Linga"
+              src="/images/abhishekam-ritual.jpg"
+              alt="Sacred Abhishekam Ritual - Milk Abhishekam being performed on Lord Shiva"
               width={600}
               height={500}
               className="rounded-lg shadow-lg relative z-10"
             />
-          </div>
-        </div>
-
-        {/* Major Developments */}
-        <div className="mb-16">
-          <h3 className="font-serif text-4xl font-bold text-blue-900 text-center mb-12">{getTranslation(language, 'majorDevelopments')}</h3>
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <div className="bg-white p-6 rounded-lg shadow-lg border-l-4 border-blue-600">
-              <div className="flex items-center mb-4">
-                <div className="bg-blue-100 p-3 rounded-full mr-4">
-                  <Star className="text-blue-600" size={24} />
-                </div>
-                <h4 className="text-xl font-bold text-blue-900">{getTranslation(language, 'gopuramConstruction')}</h4>
-              </div>
-              <p className="text-gray-700">
-                {getTranslation(language, 'gopuramDescription')}
-              </p>
-            </div>
-
-            <div className="bg-white p-6 rounded-lg shadow-lg border-l-4 border-green-600">
-              <div className="flex items-center mb-4">
-                <div className="bg-green-100 p-3 rounded-full mr-4">
-                  <Heart className="text-green-600" size={24} />
-                </div>
-                <h4 className="text-xl font-bold text-green-900">{getTranslation(language, 'infrastructureGrowth')}</h4>
-              </div>
-              <p className="text-gray-700">
-                {getTranslation(language, 'infrastructureDescription')}
-              </p>
-            </div>
-
-            <div className="bg-white p-6 rounded-lg shadow-lg border-l-4 border-purple-600">
-              <div className="flex items-center mb-4">
-                <div className="bg-purple-100 p-3 rounded-full mr-4">
-                  <Users className="text-purple-600" size={24} />
-                </div>
-                <h4 className="text-xl font-bold text-purple-900">{getTranslation(language, 'additionalDeities')}</h4>
-              </div>
-              <p className="text-gray-700">
-                {getTranslation(language, 'deitiesDescription')}
-              </p>
-            </div>
           </div>
         </div>
 
@@ -100,7 +58,7 @@ export default function HistorySection() {
               <Flame className="text-orange-600" size={32} />
             </div>
             <h3 className="font-serif text-3xl font-bold text-blue-900 mb-4">{getTranslation(language, 'spiritualActivities')}</h3>
-            <p className="text-gray-600 max-w-3xl mx-auto">
+            <p className="text-gray-600 max-w-3xl mx-auto leading-relaxed">
               {language === 'en' 
                 ? "The temple conducts regular festivals and spiritual activities that have touched thousands of lives through divine grace and answered prayers."
                 : "ದೇವಸ್ಥಾನವು ನಿಯಮಿತ ಹಬ್ಬಗಳು ಮತ್ತು ಆಧ್ಯಾತ್ಮಿಕ ಚಟುವಟಿಕೆಗಳನ್ನು ನಡೆಸುತ್ತದೆ, ಇದು ದೈವಿಕ ಕೃಪೆ ಮತ್ತು ಉತ್ತರಿಸಿದ ಪ್ರಾರ್ಥನೆಗಳ ಮೂಲಕ ಸಾವಿರಾರು ಜೀವನಗಳನ್ನು ಮುಟ್ಟಿದೆ."
@@ -109,54 +67,54 @@ export default function HistorySection() {
           </div>
           
           <div className="grid md:grid-cols-2 gap-8">
-            <div>
-              <h4 className="text-xl font-bold text-blue-900 mb-4">{getTranslation(language, 'regularFestivals')}</h4>
+            <div className="text-left">
+              <h4 className="text-xl font-bold text-blue-900 mb-4 text-center">{getTranslation(language, 'regularFestivals')}</h4>
               <ul className="space-y-3 text-gray-700">
-                <li className="flex items-center">
-                  <div className="w-2 h-2 bg-blue-600 rounded-full mr-3"></div>
-                  {getTranslation(language, 'sankashtaHaraGanapati')}
+                <li className="flex items-start">
+                  <div className="w-2 h-2 bg-blue-600 rounded-full mr-3 mt-2 flex-shrink-0"></div>
+                  <span className="leading-relaxed">{getTranslation(language, 'sankashtaHaraGanapati')}</span>
                 </li>
-                <li className="flex items-center">
-                  <div className="w-2 h-2 bg-blue-600 rounded-full mr-3"></div>
-                  {getTranslation(language, 'satyanarayanaPuja')}
+                <li className="flex items-start">
+                  <div className="w-2 h-2 bg-blue-600 rounded-full mr-3 mt-2 flex-shrink-0"></div>
+                  <span className="leading-relaxed">{getTranslation(language, 'satyanarayanaPuja')}</span>
                 </li>
-                <li className="flex items-center">
-                  <div className="w-2 h-2 bg-blue-600 rounded-full mr-3"></div>
-                  {getTranslation(language, 'pradoshaPuja')}
+                <li className="flex items-start">
+                  <div className="w-2 h-2 bg-blue-600 rounded-full mr-3 mt-2 flex-shrink-0"></div>
+                  <span className="leading-relaxed">{getTranslation(language, 'pradoshaPuja')}</span>
                 </li>
-                <li className="flex items-center">
-                  <div className="w-2 h-2 bg-blue-600 rounded-full mr-3"></div>
-                  {getTranslation(language, 'maasashivaratri')}
+                <li className="flex items-start">
+                  <div className="w-2 h-2 bg-blue-600 rounded-full mr-3 mt-2 flex-shrink-0"></div>
+                  <span className="leading-relaxed">{getTranslation(language, 'maasashivaratri')}</span>
                 </li>
-                <li className="flex items-center">
-                  <div className="w-2 h-2 bg-blue-600 rounded-full mr-3"></div>
-                  {getTranslation(language, 'girijaKalyanaotsava')}
+                <li className="flex items-start">
+                  <div className="w-2 h-2 bg-blue-600 rounded-full mr-3 mt-2 flex-shrink-0"></div>
+                  <span className="leading-relaxed">{getTranslation(language, 'girijaKalyanaotsava')}</span>
                 </li>
               </ul>
             </div>
             
-            <div>
-              <h4 className="text-xl font-bold text-blue-900 mb-4">{getTranslation(language, 'dailyWorship')}</h4>
+            <div className="text-left">
+              <h4 className="text-xl font-bold text-blue-900 mb-4 text-center">{getTranslation(language, 'dailyWorship')}</h4>
               <ul className="space-y-3 text-gray-700">
-                <li className="flex items-center">
-                  <div className="w-2 h-2 bg-green-600 rounded-full mr-3"></div>
-                  {getTranslation(language, 'panchaamrutaabhisheka')}
+                <li className="flex items-start">
+                  <div className="w-2 h-2 bg-green-600 rounded-full mr-3 mt-2 flex-shrink-0"></div>
+                  <span className="leading-relaxed">{getTranslation(language, 'panchaamrutaabhisheka')}</span>
                 </li>
-                <li className="flex items-center">
-                  <div className="w-2 h-2 bg-green-600 rounded-full mr-3"></div>
-                  {getTranslation(language, 'rudraabhisheka')}
+                <li className="flex items-start">
+                  <div className="w-2 h-2 bg-green-600 rounded-full mr-3 mt-2 flex-shrink-0"></div>
+                  <span className="leading-relaxed">{getTranslation(language, 'rudraabhisheka')}</span>
                 </li>
-                <li className="flex items-center">
-                  <div className="w-2 h-2 bg-green-600 rounded-full mr-3"></div>
-                  {getTranslation(language, 'dailyAartiBhajans')}
+                <li className="flex items-start">
+                  <div className="w-2 h-2 bg-green-600 rounded-full mr-3 mt-2 flex-shrink-0"></div>
+                  <span className="leading-relaxed">{getTranslation(language, 'dailyAartiBhajans')}</span>
                 </li>
-                <li className="flex items-center">
-                  <div className="w-2 h-2 bg-green-600 rounded-full mr-3"></div>
-                  {getTranslation(language, 'prasadDistribution')}
+                <li className="flex items-start">
+                  <div className="w-2 h-2 bg-green-600 rounded-full mr-3 mt-2 flex-shrink-0"></div>
+                  <span className="leading-relaxed">{getTranslation(language, 'prasadDistribution')}</span>
                 </li>
-                <li className="flex items-center">
-                  <div className="w-2 h-2 bg-green-600 rounded-full mr-3"></div>
-                  {getTranslation(language, 'spiritualGuidance')}
+                <li className="flex items-start">
+                  <div className="w-2 h-2 bg-green-600 rounded-full mr-3 mt-2 flex-shrink-0"></div>
+                  <span className="leading-relaxed">{getTranslation(language, 'spiritualGuidance')}</span>
                 </li>
               </ul>
             </div>
