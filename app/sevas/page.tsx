@@ -177,7 +177,7 @@ export default function SevasPage() {
             </p>
             <Button 
               className="bg-green-600 hover:bg-green-700 text-white font-bold py-2 px-4 rounded-full flex items-center gap-2"
-              onClick={() => window.open('https://wa.me/918025986509', '_blank')}
+              onClick={() => window.open('https://wa.me/919632303429', '_blank')}
             >
               <Phone className="h-6 w-6" />
               {language === 'en' ? 'WhatsApp Us' : 'ವಾಟ್ಸಾಪ್ ನಮ್ಮಿಗೆ'}
