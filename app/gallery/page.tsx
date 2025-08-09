@@ -251,8 +251,14 @@ export default function GalleryPage() {
                 </CarouselItem>
               ))}
             </CarouselContent>
-            <CarouselPrevious className="text-white hover:text-amber-400" />
-            <CarouselNext className="text-white hover:text-amber-400" />
+            <CarouselPrevious
+              variant="default"
+              className="left-2 text-white bg-black/70 hover:bg-black/90 border border-white/20 shadow-lg backdrop-blur-sm h-10 w-10"
+            />
+            <CarouselNext
+              variant="default"
+              className="right-2 text-white bg-black/70 hover:bg-black/90 border border-white/20 shadow-lg backdrop-blur-sm h-10 w-10"
+            />
           </Carousel>
         </div>
       </section>
@@ -365,27 +371,27 @@ export default function GalleryPage() {
           <div className="relative max-w-4xl max-h-[90vh] mx-4">
             <Button
               onClick={closeLightbox}
-              variant="ghost"
+              variant="default"
               size="icon"
-              className="absolute top-4 right-4 z-10 bg-white/20 hover:bg-white/30 text-white"
+              className="absolute top-4 right-4 z-10 bg-black/70 hover:bg-black/90 text-white border border-white/20 shadow-lg backdrop-blur-sm"
             >
               <X size={24} />
             </Button>
             
             <Button
               onClick={prevImage}
-              variant="ghost"
+              variant="default"
               size="icon"
-              className="absolute left-4 top-1/2 transform -translate-y-1/2 z-10 bg-white/20 hover:bg-white/30 text-white"
+              className="absolute left-4 top-1/2 transform -translate-y-1/2 z-10 bg-black/70 hover:bg-black/90 text-white border border-white/20 shadow-lg backdrop-blur-sm"
             >
               <ChevronLeft size={24} />
             </Button>
             
             <Button
               onClick={nextImage}
-              variant="ghost"
+              variant="default"
               size="icon"
-              className="absolute right-4 top-1/2 transform -translate-y-1/2 z-10 bg-white/20 hover:bg-white/30 text-white"
+              className="absolute right-4 top-1/2 transform -translate-y-1/2 z-10 bg-black/70 hover:bg-black/90 text-white border border-white/20 shadow-lg backdrop-blur-sm"
             >
               <ChevronRight size={24} />
             </Button>

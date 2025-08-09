@@ -60,6 +60,16 @@ export default function HeroSection() {
             <div className="flex items-center justify-center gap-2">
               <MessageCircle className="text-amber-400" size={18} />
               <span className="text-amber-200">{getTranslation(language, 'whatsapp')}: {templeInfo.whatsapp}</span>
+              <a
+                href="https://maps.app.goo.gl/EUEKYCdTaFJEX8Bg9"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="Open temple location in Google Maps"
+                className="inline-flex items-center justify-center rounded-md border border-amber-400/30 bg-white/10 px-2 py-1 text-amber-100 hover:bg-white/20 hover:text-white transition-colors"
+              >
+                <MapPin className="text-amber-300" size={16} />
+                <span className="ml-1 text-xs hidden sm:inline">Maps</span>
+              </a>
             </div>
             <div className="flex items-center justify-center gap-2">
               <Clock className="text-amber-400" size={18} />

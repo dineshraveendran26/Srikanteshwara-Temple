@@ -10,28 +10,28 @@ export default function CommitteePage() {
 
   const managementCommittee = [
     {
-      name: "Sri B. Venkatesh",
-      nameKn: "ಶ್ರೀ ಬಿ. ವೆಂಕಟೇಶ್",
-      position: "Managing Trust",
-      positionKn: "ವ್ಯವಸ್ಥಾಪಕ ಟ್ರಸ್ಟ್"
+      name: "Sri G. Nanjundayya",
+      nameKn: "ಶ್ರೀ ಜಿ. ನಂಜುಂಡಯ್ಯ",
+      position: "President",
+      positionKn: "ಅಧ್ಯಕ್ಷರು"
     },
     {
       name: "Sri K.H. Rajanna",
       nameKn: "ಶ್ರೀ ಕೆ.ಎಚ್. ರಾಜಣ್ಣ",
-      position: "President",
+      position: "Vice President",
       positionKn: "ಉಪಾಧ್ಯಕ್ಷರು"
-    },
-    {
-      name: "Sri G. Nanjundayya",
-      nameKn: "ಶ್ರೀ ಜಿ. ನಂಜುಂಡಯ್ಯ",
-      position: "Chairman",
-      positionKn: "ಅಧ್ಯಕ್ಷರು"
     },
     {
       name: "Sri H.K.B Sridharamurthy",
       nameKn: "ಶ್ರೀ ಎಚ್.ಕೆ.ಬಿ. ಶ್ರೀಧರಮೂರ್ತಿ",
       position: "Secretary",
       positionKn: "ಕಾರ್ಯದರ್ಶಿ"
+    },
+    {
+      name: "Sri B. Venkatesh",
+      nameKn: "ಶ್ರೀ ಬಿ. ವೆಂಕಟೇಶ್",
+      position: "Management Trustee",
+      positionKn: "ಮ್ಯಾನೇಜ್‌ಮೆಂಟ್ ಟ್ರಸ್ಟಿ"
     },
     {
       name: "Sri K.T. Venkatesh",
@@ -180,7 +180,7 @@ export default function CommitteePage() {
             <p className="text-xl text-amber-100">
               {language === 'en' 
                 ? 'May Lord Shiva bless our committee and all devotees' 
-                : 'ಲಾರ್ಡ್ ಶಿವರು ನಮ್ಮ ಸಮಿತಿ ಮತ್ತು ಎಲ್ಲಾ ಭಕ್ತರಿಗೆ ಆಶೀರ್ವಾದ ನೀಡಲಿ'
+                : 'ದೇವ ಶಿವರು ನಮ್ಮ ಸಮಿತಿ ಮತ್ತು ಎಲ್ಲಾ ಭಕ್ತರಿಗೆ ಆಶೀರ್ವಾದ ನೀಡಲಿ'
               }
             </p>
           </div>

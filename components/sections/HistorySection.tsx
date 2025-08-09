@@ -51,75 +51,7 @@ export default function HistorySection() {
           </div>
         </div>
 
-        {/* Spiritual Activities */}
-        <div className="mb-16 bg-white rounded-lg shadow-lg p-8">
-          <div className="text-center mb-8">
-            <div className="bg-orange-100 p-4 rounded-full inline-block mb-4">
-              <Flame className="text-orange-600" size={32} />
-            </div>
-            <h3 className="font-serif text-3xl font-bold text-blue-900 mb-4">{getTranslation(language, 'spiritualActivities')}</h3>
-            <p className="text-gray-600 max-w-3xl mx-auto leading-relaxed">
-              {language === 'en' 
-                ? "The temple conducts regular festivals and spiritual activities that have touched thousands of lives through divine grace and answered prayers."
-                : "ದೇವಸ್ಥಾನವು ನಿಯಮಿತ ಹಬ್ಬಗಳು ಮತ್ತು ಆಧ್ಯಾತ್ಮಿಕ ಚಟುವಟಿಕೆಗಳನ್ನು ನಡೆಸುತ್ತದೆ, ಇದು ದೈವಿಕ ಕೃಪೆ ಮತ್ತು ಉತ್ತರಿಸಿದ ಪ್ರಾರ್ಥನೆಗಳ ಮೂಲಕ ಸಾವಿರಾರು ಜೀವನಗಳನ್ನು ಮುಟ್ಟಿದೆ."
-              }
-            </p>
-          </div>
-          
-          <div className="grid md:grid-cols-2 gap-8">
-            <div className="text-left">
-              <h4 className="text-xl font-bold text-blue-900 mb-4 text-center">{getTranslation(language, 'regularFestivals')}</h4>
-              <ul className="space-y-3 text-gray-700">
-                <li className="flex items-start">
-                  <div className="w-2 h-2 bg-blue-600 rounded-full mr-3 mt-2 flex-shrink-0"></div>
-                  <span className="leading-relaxed">{getTranslation(language, 'sankashtaHaraGanapati')}</span>
-                </li>
-                <li className="flex items-start">
-                  <div className="w-2 h-2 bg-blue-600 rounded-full mr-3 mt-2 flex-shrink-0"></div>
-                  <span className="leading-relaxed">{getTranslation(language, 'satyanarayanaPuja')}</span>
-                </li>
-                <li className="flex items-start">
-                  <div className="w-2 h-2 bg-blue-600 rounded-full mr-3 mt-2 flex-shrink-0"></div>
-                  <span className="leading-relaxed">{getTranslation(language, 'pradoshaPuja')}</span>
-                </li>
-                <li className="flex items-start">
-                  <div className="w-2 h-2 bg-blue-600 rounded-full mr-3 mt-2 flex-shrink-0"></div>
-                  <span className="leading-relaxed">{getTranslation(language, 'maasashivaratri')}</span>
-                </li>
-                <li className="flex items-start">
-                  <div className="w-2 h-2 bg-blue-600 rounded-full mr-3 mt-2 flex-shrink-0"></div>
-                  <span className="leading-relaxed">{getTranslation(language, 'girijaKalyanaotsava')}</span>
-                </li>
-              </ul>
-            </div>
-            
-            <div className="text-left">
-              <h4 className="text-xl font-bold text-blue-900 mb-4 text-center">{getTranslation(language, 'dailyWorship')}</h4>
-              <ul className="space-y-3 text-gray-700">
-                <li className="flex items-start">
-                  <div className="w-2 h-2 bg-green-600 rounded-full mr-3 mt-2 flex-shrink-0"></div>
-                  <span className="leading-relaxed">{getTranslation(language, 'panchaamrutaabhisheka')}</span>
-                </li>
-                <li className="flex items-start">
-                  <div className="w-2 h-2 bg-green-600 rounded-full mr-3 mt-2 flex-shrink-0"></div>
-                  <span className="leading-relaxed">{getTranslation(language, 'rudraabhisheka')}</span>
-                </li>
-                <li className="flex items-start">
-                  <div className="w-2 h-2 bg-green-600 rounded-full mr-3 mt-2 flex-shrink-0"></div>
-                  <span className="leading-relaxed">{getTranslation(language, 'dailyAartiBhajans')}</span>
-                </li>
-                <li className="flex items-start">
-                  <div className="w-2 h-2 bg-green-600 rounded-full mr-3 mt-2 flex-shrink-0"></div>
-                  <span className="leading-relaxed">{getTranslation(language, 'prasadDistribution')}</span>
-                </li>
-                <li className="flex items-start">
-                  <div className="w-2 h-2 bg-green-600 rounded-full mr-3 mt-2 flex-shrink-0"></div>
-                  <span className="leading-relaxed">{getTranslation(language, 'spiritualGuidance')}</span>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
+        {/* Spiritual Activities moved to Sevas page */}
 
         {/* Timeline */}
         <div className="mb-16">

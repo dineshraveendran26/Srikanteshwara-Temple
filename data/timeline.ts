@@ -42,7 +42,7 @@ export const getTimelineEvents = (language: Language): TimelineEvent[] => [
     title: language === 'en' ? "Additional Deities" : "ಹೆಚ್ಚುವರಿ ದೇವತೆಗಳು",
     description: language === 'en'
       ? "Lord Ganapati, Goddess Parvati, and Navagraha deities were installed through community support, creating a comprehensive spiritual sanctuary for all devotees."
-      : "ಲಾರ್ಡ್ ಗಣಪತಿ, ದೇವಿ ಪಾರ್ವತಿ ಮತ್ತು ನವಗ್ರಹ ದೇವತೆಗಳನ್ನು ಸಮುದಾಯ ಬೆಂಬಲದೊಂದಿಗೆ ಸ್ಥಾಪಿಸಲಾಯಿತು, ಎಲ್ಲಾ ಭಕ್ತರಿಗಾಗಿ ಸಮಗ್ರ ಆಧ್ಯಾತ್ಮಿಕ ಆಶ್ರಯವನ್ನು ಸೃಷ್ಟಿಸಿತು.",
+      : "ದೇವ ಗಣಪತಿ, ದೇವಿ ಪಾರ್ವತಿ ಮತ್ತು ನವಗ್ರಹ ದೇವತೆಗಳನ್ನು ಸಮುದಾಯ ಬೆಂಬಲದೊಂದಿಗೆ ಸ್ಥಾಪಿಸಲಾಯಿತು, ಎಲ್ಲಾ ಭಕ್ತರಿಗಾಗಿ ಸಮಗ್ರ ಆಧ್ಯಾತ್ಮಿಕ ಆಶ್ರಯವನ್ನು ಸೃಷ್ಟಿಸಿತು.",
     icon: React.createElement(Gem, { className: "text-emerald-600", size: 24 }),
   },
   {
@@ -52,13 +52,5 @@ export const getTimelineEvents = (language: Language): TimelineEvent[] => [
       ? "Regular festivals including Sankashta Hara Ganapati Vrata, Satyanarayana Puja, Pradosha Puja, Maasashivaratri, and the special Girija Kalyanaotsava (Divine Marriage Festival). Daily worship including Panchaamrutaabhisheka and Rudraabhisheka continues without interruption."
       : "ಸಂಕಷ್ಟ ಹರ ಗಣಪತಿ ವ್ರತ, ಸತ್ಯನಾರಾಯಣ ಪೂಜೆ, ಪ್ರದೋಷ ಪೂಜೆ, ಮಾಸಶಿವರಾತ್ರಿ ಮತ್ತು ವಿಶೇಷ ಗಿರಿಜಾ ಕಲ್ಯಾಣೋತ್ಸವ (ದೈವಿಕ ವಿವಾಹ ಹಬ್ಬ) ಸೇರಿದಂತೆ ನಿಯಮಿತ ಹಬ್ಬಗಳು. ಪಂಚಾಮೃತಾಭಿಷೇಕ ಮತ್ತು ರುದ್ರಾಭಿಷೇಕ ಸೇರಿದಂತೆ ದೈನಂದಿನ ಪೂಜೆಯು ನಿರ್ವಿಘ್ನವಾಗಿ ಮುಂದುವರಿಯುತ್ತಿದೆ.",
     icon: React.createElement(Flame, { className: "text-orange-600", size: 24 }),
-  },
-  {
-    year: "25+ Years",
-    title: language === 'en' ? "Decades of Service" : "ಸೇವೆಯ ದಶಕಗಳು",
-    description: language === 'en'
-      ? "Since 1990, the temple has served thousands of devotees. Many testify to having their prayers answered, particularly regarding marriage arrangements and progeny, through Lord Shiva's divine grace. The temple's growth has been possible through dedicated service of trustees and generous support from devotees."
-      : "1990 ರಿಂದ, ದೇವಸ್ಥಾನವು ಸಾವಿರಾರು ಭಕ್ತರಿಗೆ ಸೇವೆ ಸಲ್ಲಿಸಿದೆ. ಅನೇಕರು ತಮ್ಮ ಪ್ರಾರ್ಥನೆಗಳಿಗೆ ಉತ್ತರ ದೊರೆತಿದೆ ಎಂದು ಸಾಕ್ಷ್ಯ ನೀಡುತ್ತಾರೆ, ವಿಶೇಷವಾಗಿ ವಿವಾಹ ವ್ಯವಸ್ಥೆಗಳು ಮತ್ತು ಸಂತತಿಯ ಕುರಿತು, ಲಾರ್ಡ್ ಶಿವರ ದೈವಿಕ ಕೃಪೆಯ ಮೂಲಕ. ದೇವಸ್ಥಾನದ ಬೆಳವಣಿಗೆ ಟ್ರಸ್ಟಿಗಳ ಸಮರ್ಪಿತ ಸೇವೆ ಮತ್ತು ಭಕ್ತರ ಉದಾರ ಬೆಂಬಲದ ಮೂಲಕ ಸಾಧ್ಯವಾಗಿದೆ.",
-    icon: React.createElement(Users, { className: "text-green-600", size: 24 }),
   },
 ] 

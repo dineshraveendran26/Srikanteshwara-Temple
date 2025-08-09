@@ -34,7 +34,7 @@ export default function CommunityHallPage() {
         <div className="max-w-6xl mx-auto px-4 text-center">
           <div className="mb-6 bg-black/20 backdrop-blur-sm rounded-xl p-6 border border-amber-400/40">
             <h1 className="font-serif text-5xl font-bold text-shadow-lg text-white drop-shadow-2xl mb-4 md:text-5xl">
-              {language === 'en' ? 'Community Hall' : 'ಸಮುದಾಯ ಹಲ್ಲು'}
+              {language === 'en' ? 'Community Hall' : 'ಸಮುದಾಯ ಭವನ'}
             </h1>
             <p className="text-2xl mb-2 font-light text-amber-100 drop-shadow-lg md:text-3xl">
               {language === 'en' ? 'Available for cultural events and community gatherings' : 'ಸಾಂಸ್ಕೃತಿಕ ಕಾರ್ಯಕ್ರಮಗಳು ಮತ್ತು ಸಮುದಾಯ ಸಮಾರಂಭಗಳಿಗಾಗಿ ಲಭ್ಯವಿದೆ'}
@@ -49,7 +49,7 @@ export default function CommunityHallPage() {
           <Card className="bg-white/10 backdrop-blur-sm border border-amber-400/30">
             <CardHeader className="text-center">
               <CardTitle className="text-white text-3xl font-bold mb-4">
-                {language === 'en' ? 'Community Hall Available for Usage' : 'ಸಮುದಾಯ ಹಲ್ಲು ಬಳಕೆಗೆ ಲಭ್ಯವಿದೆ'}
+                {language === 'en' ? 'Community Hall Available for Usage' : 'ಸಮುದಾಯ ಭವನ ಬಳಕೆಗೆ ಲಭ್ಯವಿದೆ'}
               </CardTitle>
             </CardHeader>
             <CardContent className="text-center space-y-6">
@@ -57,7 +57,7 @@ export default function CommunityHallPage() {
                 <p className="text-xl text-white leading-relaxed mb-6">
                   {language === 'en' 
                     ? "Community hall available for usage for cultural events, please contact temple whatsapp for more details"
-                    : "ಸಾಂಸ್ಕೃತಿಕ ಕಾರ್ಯಕ್ರಮಗಳಿಗಾಗಿ ಸಮುದಾಯ ಹಲ್ಲು ಬಳಕೆಗೆ ಲಭ್ಯವಿದೆ, ಹೆಚ್ಚಿನ ವಿವರಗಳಿಗಾಗಿ ದೇವಸ್ಥಾನ ವಾಟ್ಸಾಪ್ ಸಂಪರ್ಕಿಸಿ"
+                    : "ಸಾಂಸ್ಕೃತಿಕ ಕಾರ್ಯಕ್ರಮಗಳಿಗಾಗಿ ಸಮುದಾಯ ಭವನ ಬಳಕೆಗೆ ಲಭ್ಯವಿದೆ, ಹೆಚ್ಚಿನ ವಿವರಗಳಿಗಾಗಿ ದೇವಸ್ಥಾನ ವಾಟ್ಸಾಪ್ ಸಂಪರ್ಕಿಸಿ"
                   }
                 </p>
                 
@@ -139,7 +139,7 @@ export default function CommunityHallPage() {
             <p className="text-xl text-amber-100">
               {language === 'en' 
                 ? 'May Lord Shiva bless all community events and gatherings' 
-                : 'ಲಾರ್ಡ್ ಶಿವರು ಎಲ್ಲಾ ಸಮುದಾಯ ಕಾರ್ಯಕ್ರಮಗಳು ಮತ್ತು ಸಮಾರಂಭಗಳಿಗೆ ಆಶೀರ್ವಾದ ನೀಡಲಿ'
+                : 'ದೇವ ಶಿವರು ಎಲ್ಲಾ ಸಮುದಾಯ ಕಾರ್ಯಕ್ರಮಗಳು ಮತ್ತು ಸಮಾರಂಭಗಳಿಗೆ ಆಶೀರ್ವಾದ ನೀಡಲಿ'
               }
             </p>
           </div>

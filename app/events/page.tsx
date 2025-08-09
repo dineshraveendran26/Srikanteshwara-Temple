@@ -19,7 +19,7 @@ export default function EventsPage() {
       time: "6:00 PM - 12:00 AM",
       description: language === 'en' 
         ? "The most auspicious night dedicated to Lord Shiva with special abhishek, bhajans, and night-long prayers."
-        : "ಲಾರ್ಡ್ ಶಿವರಿಗೆ ಸಮರ್ಪಿತವಾದ ಅತ್ಯಂತ ಶುಭ ರಾತ್ರಿ, ವಿಶೇಷ ಅಭಿಷೇಕ, ಭಜನೆಗಳು ಮತ್ತು ರಾತ್ರಿಯುದ್ದಕ್ಕೂ ಪ್ರಾರ್ಥನೆಗಳೊಂದಿಗೆ.",
+        : "ದೇವ ಶಿವರಿಗೆ ಸಮರ್ಪಿತವಾದ ಅತ್ಯಂತ ಶುಭ ರಾತ್ರಿ, ವಿಶೇಷ ಅಭಿಷೇಕ, ಭಜನೆಗಳು ಮತ್ತು ರಾತ್ರಿಯುದ್ದಕ್ಕೂ ಪ್ರಾರ್ಥನೆಗಳೊಂದಿಗೆ.",
       image: "/placeholder.svg?height=300&width=400",
       category: language === 'en' ? "Major Festival" : "ಪ್ರಮುಖ ಹಬ್ಬ",
       attendees: "500+",
@@ -31,7 +31,7 @@ export default function EventsPage() {
       time: "6:00 AM - 9:00 PM",
       description: language === 'en'
         ? "Special prayers and fasting rituals during the holy month of Shravan, most auspicious for Lord Shiva worship."
-        : "ಪವಿತ್ರ ಶ್ರಾವಣ ಮಾಸದಲ್ಲಿ ವಿಶೇಷ ಪ್ರಾರ್ಥನೆಗಳು ಮತ್ತು ಉಪವಾಸ ವಿಧಿಗಳು, ಲಾರ್ಡ್ ಶಿವರ ಪೂಜೆಗೆ ಅತ್ಯಂತ ಶುಭಕರ.",
+        : "ಪವಿತ್ರ ಶ್ರಾವಣ ಮಾಸದಲ್ಲಿ ವಿಶೇಷ ಪ್ರಾರ್ಥನೆಗಳು ಮತ್ತು ಉಪವಾಸ ವಿಧಿಗಳು, ದೇವ ಶಿವರ ಪೂಜೆಗೆ ಅತ್ಯಂತ ಶುಭಕರ.",
       image: "/placeholder.svg?height=300&width=400",
       category: language === 'en' ? "Weekly Ritual" : "ಸಾಪ್ತಾಹಿಕ ವಿಧಿ",
       attendees: "200+",
@@ -67,7 +67,7 @@ export default function EventsPage() {
       time: "6:00 PM - 8:00 PM",
       description: language === 'en'
         ? "Bi-monthly fasting and prayer dedicated to Lord Shiva, observed during the twilight hours."
-        : "ಲಾರ್ಡ್ ಶಿವರಿಗೆ ಸಮರ್ಪಿತವಾದ ಅರ್ಧಮಾಸಿಕ ಉಪವಾಸ ಮತ್ತು ಪ್ರಾರ್ಥನೆ, ಸಂಜೆ ಸಮಯದಲ್ಲಿ ಆಚರಿಸಲಾಗುತ್ತದೆ.",
+        : "ದೇವ ಶಿವರಿಗೆ ಸಮರ್ಪಿತವಾದ ಅರ್ಧಮಾಸಿಕ ಉಪವಾಸ ಮತ್ತು ಪ್ರಾರ್ಥನೆ, ಸಂಜೆ ಸಮಯದಲ್ಲಿ ಆಚರಿಸಲಾಗುತ್ತದೆ.",
       image: "/placeholder.svg?height=300&width=400",
       category: language === 'en' ? "Bi-monthly" : "ಅರ್ಧಮಾಸಿಕ",
       attendees: "100+",
