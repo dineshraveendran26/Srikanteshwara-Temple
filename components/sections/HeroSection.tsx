@@ -11,11 +11,11 @@ export default function HeroSection() {
   const { language } = useLanguage()
 
   return (
-    <section id="home" className="relative h-screen flex items-center justify-center overflow-hidden pt-20 scroll-mt-32">
+    <section id="home" className="relative min-h-[100svh] md:h-screen flex items-center justify-center overflow-hidden pt-20 pt-[env(safe-area-inset-top)] scroll-mt-32">
       {/* Background with overlay */}
       <div className="absolute inset-0 z-0">
         <div className="absolute inset-0 bg-gradient-to-br from-amber-50 via-orange-50 to-yellow-50" />
-        <div className="absolute inset-0 bg-gradient-to-r from-blue-900/80 via-blue-800/70 to-blue-900/80" />
+        <div className="absolute inset-0 bg-gradient-to-r from-blue-900/80 via-blue-800/70 to-blue-900/80 hidden md:block" />
       </div>
 
       {/* Decorative border pattern */}
@@ -65,7 +65,8 @@ export default function HeroSection() {
                 target="_blank"
                 rel="noopener noreferrer"
                 title="Open temple location in Google Maps"
-                className="inline-flex items-center justify-center rounded-md border border-amber-400/30 bg-white/10 px-2 py-1 text-amber-100 hover:bg-white/20 hover:text-white transition-colors"
+                aria-label="Open temple location in Google Maps"
+                className="inline-flex items-center justify-center rounded-md border border-amber-400/30 bg-white/10 px-2 py-1 text-amber-100 hover:bg-white/20 hover:text-white transition-colors focus-visible:ring-2 focus-visible:ring-white/70 focus-visible:outline-none"
               >
                 <MapPin className="text-amber-300" size={16} />
                 <span className="ml-1 text-xs hidden sm:inline">Maps</span>
@@ -80,10 +81,10 @@ export default function HeroSection() {
       </div>
 
       {/* Decorative elements */}
-      <div className="absolute top-20 left-10 w-16 h-16 border-2 border-amber-400/30 rounded-full animate-pulse hidden md:block"></div>
-      <div className="absolute bottom-20 right-10 w-12 h-12 border-2 border-amber-400/30 rounded-full animate-pulse hidden md:block"></div>
-      <div className="absolute top-1/2 left-5 w-8 h-8 border border-amber-400/20 rounded-full animate-bounce hidden md:block"></div>
-      <div className="absolute top-1/3 right-5 w-6 h-6 border border-amber-400/20 rounded-full animate-bounce hidden md:block"></div>
+      <div className="absolute top-20 left-10 w-16 h-16 border-2 border-amber-400/30 rounded-full motion-safe:animate-pulse hidden md:block"></div>
+      <div className="absolute bottom-20 right-10 w-12 h-12 border-2 border-amber-400/30 rounded-full motion-safe:animate-pulse hidden md:block"></div>
+      <div className="absolute top-1/2 left-5 w-8 h-8 border border-amber-400/20 rounded-full motion-safe:animate-bounce hidden md:block"></div>
+      <div className="absolute top-1/3 right-5 w-6 h-6 border border-amber-400/20 rounded-full motion-safe:animate-bounce hidden md:block"></div>
     </section>
   )
 } 

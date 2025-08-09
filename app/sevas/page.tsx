@@ -124,11 +124,11 @@ export default function SevasPage() {
   ]
 
   return (
-    <div className="min-h-screen relative">
+    <div className="min-h-[100svh] md:min-h-screen relative">
       {/* Background with overlay - Matching home page exactly */}
       <div className="absolute inset-0 z-0">
         <div className="absolute inset-0 bg-gradient-to-br from-amber-50 via-orange-50 to-yellow-50" />
-        <div className="absolute inset-0 bg-gradient-to-r from-blue-900/80 via-blue-800/70 to-blue-900/80" />
+        <div className="absolute inset-0 bg-gradient-to-r from-blue-900/80 via-blue-800/70 to-blue-900/80 hidden md:block" />
       </div>
 
       {/* Decorative border pattern - Matching home page */}
@@ -201,7 +201,7 @@ export default function SevasPage() {
                   <TableBody>
                     {sevaItems.map((item, index) => (
                       <TableRow key={index} className="border-amber-400/20 hover:bg-white/10 transition-colors">
-                        <TableCell className="text-white text-lg">
+                 <TableCell className="text-white text-lg break-words">
                           {language === 'en' ? item.name : item.nameKn}
                         </TableCell>
                         <TableCell className="text-white text-lg text-right font-semibold">

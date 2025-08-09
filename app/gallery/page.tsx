@@ -188,7 +188,7 @@ export default function GalleryPage() {
       {/* Background with overlay - Matching home page exactly */}
       <div className="absolute inset-0 z-0">
         <div className="absolute inset-0 bg-gradient-to-br from-amber-50 via-orange-50 to-yellow-50" />
-        <div className="absolute inset-0 bg-gradient-to-r from-blue-900/80 via-blue-800/70 to-blue-900/80" />
+        <div className="absolute inset-0 bg-gradient-to-r from-blue-900/80 via-blue-800/70 to-blue-900/80 hidden md:block" />
       </div>
 
       {/* Decorative border pattern - Matching home page */}
@@ -198,10 +198,10 @@ export default function GalleryPage() {
       </div>
 
       {/* Decorative elements - Matching home page */}
-      <div className="absolute top-20 left-10 w-16 h-16 border-2 border-amber-400/30 rounded-full animate-pulse hidden md:block"></div>
-      <div className="absolute bottom-20 right-10 w-12 h-12 border-2 border-amber-400/30 rounded-full animate-pulse hidden md:block"></div>
-      <div className="absolute top-1/2 left-5 w-8 h-8 border border-amber-400/20 rounded-full animate-bounce hidden md:block"></div>
-      <div className="absolute top-1/3 right-5 w-6 h-6 border border-amber-400/20 rounded-full animate-bounce hidden md:block"></div>
+      <div className="absolute top-20 left-10 w-16 h-16 border-2 border-amber-400/30 rounded-full motion-safe:animate-pulse hidden md:block"></div>
+      <div className="absolute bottom-20 right-10 w-12 h-12 border-2 border-amber-400/30 rounded-full motion-safe:animate-pulse hidden md:block"></div>
+      <div className="absolute top-1/2 left-5 w-8 h-8 border border-amber-400/20 rounded-full motion-safe:animate-bounce hidden md:block"></div>
+      <div className="absolute top-1/3 right-5 w-6 h-6 border border-amber-400/20 rounded-full motion-safe:animate-bounce hidden md:block"></div>
 
       {/* Header - Matching home page theme */}
       <section className="relative z-10 py-16">
@@ -373,7 +373,8 @@ export default function GalleryPage() {
               onClick={closeLightbox}
               variant="default"
               size="icon"
-              className="absolute top-4 right-4 z-10 bg-black/70 hover:bg-black/90 text-white border border-white/20 shadow-lg backdrop-blur-sm"
+              aria-label="Close"
+              className="absolute top-4 right-4 z-10 bg-black/70 hover:bg-black/90 text-white border border-white/20 shadow-lg backdrop-blur-sm focus-visible:ring-2 focus-visible:ring-white/70 focus-visible:outline-none"
             >
               <X size={24} />
             </Button>
@@ -382,7 +383,8 @@ export default function GalleryPage() {
               onClick={prevImage}
               variant="default"
               size="icon"
-              className="absolute left-4 top-1/2 transform -translate-y-1/2 z-10 bg-black/70 hover:bg-black/90 text-white border border-white/20 shadow-lg backdrop-blur-sm"
+              aria-label="Previous image"
+              className="absolute left-4 top-1/2 transform -translate-y-1/2 z-10 bg-black/70 hover:bg-black/90 text-white border border-white/20 shadow-lg backdrop-blur-sm focus-visible:ring-2 focus-visible:ring-white/70 focus-visible:outline-none"
             >
               <ChevronLeft size={24} />
             </Button>
@@ -391,7 +393,8 @@ export default function GalleryPage() {
               onClick={nextImage}
               variant="default"
               size="icon"
-              className="absolute right-4 top-1/2 transform -translate-y-1/2 z-10 bg-black/70 hover:bg-black/90 text-white border border-white/20 shadow-lg backdrop-blur-sm"
+              aria-label="Next image"
+              className="absolute right-4 top-1/2 transform -translate-y-1/2 z-10 bg-black/70 hover:bg-black/90 text-white border border-white/20 shadow-lg backdrop-blur-sm focus-visible:ring-2 focus-visible:ring-white/70 focus-visible:outline-none"
             >
               <ChevronRight size={24} />
             </Button>
