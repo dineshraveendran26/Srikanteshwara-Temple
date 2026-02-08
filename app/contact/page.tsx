@@ -13,9 +13,9 @@ export default function ContactPage() {
   const { language } = useLanguage()
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-blue-50 to-white">
+    <div className="min-h-screen bg-gradient-to-b from-amber-50 via-orange-50 to-white">
       {/* Header */}
-      <section className="py-16 bg-gradient-to-r from-blue-900 to-blue-700 text-white">
+      <section className="py-16 bg-gradient-to-r from-orange-600 via-amber-500 to-orange-600 text-white">
         <div className="max-w-6xl mx-auto px-4 text-center">
           <h1 className="font-serif text-5xl font-bold mb-4">{getTranslation(language, 'contactUs')}</h1>
           <p className="text-xl opacity-90">

@@ -125,10 +125,10 @@ export default function SevasPage() {
 
   return (
     <div className="min-h-[100svh] md:min-h-screen relative">
-      {/* Background with overlay - Matching home page exactly */}
+      {/* Background with vibrant saffron and gold gradient - Matching home page exactly */}
       <div className="absolute inset-0 z-0">
-        <div className="absolute inset-0 bg-gradient-to-br from-amber-50 via-orange-50 to-yellow-50" />
-        <div className="absolute inset-0 bg-gradient-to-r from-blue-900/80 via-blue-800/70 to-blue-900/80" />
+        <div className="absolute inset-0 bg-gradient-to-br from-orange-500 via-amber-400 to-yellow-400" />
+        <div className="absolute inset-0 bg-gradient-to-r from-orange-600/60 via-amber-500/50 to-orange-600/60" />
       </div>
 
       {/* Decorative border pattern - Matching home page */}

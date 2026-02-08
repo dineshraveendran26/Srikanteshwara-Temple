@@ -5,7 +5,7 @@ import HistorySection from "@/components/sections/HistorySection"
 
 export default function HomePage() {
   return (
-    <div className="min-h-screen bg-gradient-to-b from-blue-50 to-white">
+    <div className="min-h-screen bg-gradient-to-b from-amber-50 via-orange-50 to-white">
       <HeroSection />
       <EventsSection />
       <HistorySection />

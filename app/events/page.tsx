@@ -104,9 +104,9 @@ export default function EventsPage() {
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-blue-50 to-white">
+    <div className="min-h-screen bg-gradient-to-b from-amber-50 via-orange-50 to-white">
       {/* Header */}
-      <section className="py-16 bg-gradient-to-r from-blue-900 to-blue-700 text-white">
+      <section className="py-16 bg-gradient-to-r from-orange-600 via-amber-500 to-orange-600 text-white">
         <div className="max-w-6xl mx-auto px-4 text-center">
           <h1 className="font-serif text-5xl font-bold mb-4">{getTranslation(language, 'upcomingEvents')}</h1>
           <p className="text-xl opacity-90">
@@ -169,7 +169,7 @@ export default function EventsPage() {
       </section>
 
       {/* Calendar Section */}
-      <section className="py-16 bg-blue-50">
+      <section className="py-16 bg-gradient-to-b from-amber-50 via-orange-50 to-yellow-50">
         <div className="max-w-4xl mx-auto px-4 text-center">
           <h2 className="font-serif text-3xl font-bold text-blue-900 mb-6">{getTranslation(language, 'eventCalendar')}</h2>
           <p className="text-gray-600 mb-8">

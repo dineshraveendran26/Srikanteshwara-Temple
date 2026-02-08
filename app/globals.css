@@ -101,3 +101,8 @@ body::before {
   background: transparent;
   z-index: -1;
 }
+
+/* Touch manipulation for better mobile interaction */
+.touch-manipulation {
+  touch-action: manipulation;
+}

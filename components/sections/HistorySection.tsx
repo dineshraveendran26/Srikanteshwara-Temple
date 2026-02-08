@@ -13,7 +13,7 @@ export default function HistorySection() {
   const timelineEvents = getTimelineEvents(language)
 
   return (
-    <section id="history" className="py-12 bg-blue-50 scroll-mt-32">
+    <section id="history" className="py-12 bg-gradient-to-b from-amber-50 via-orange-50 to-yellow-50 scroll-mt-32">
       <div className="max-w-6xl mx-auto px-4">
         <SectionHeader
           title={getTranslation(language, 'templeHistoryTitle')}

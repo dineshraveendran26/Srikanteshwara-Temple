@@ -12,10 +12,10 @@ export default function HeroSection() {
 
   return (
     <section id="home" className="relative min-h-[100svh] md:h-screen flex items-center justify-center overflow-hidden pt-20 pt-[env(safe-area-inset-top)] scroll-mt-32">
-      {/* Background with overlay */}
+      {/* Background with vibrant saffron and gold gradient */}
       <div className="absolute inset-0 z-0">
-        <div className="absolute inset-0 bg-gradient-to-br from-amber-50 via-orange-50 to-yellow-50" />
-        <div className="absolute inset-0 bg-gradient-to-r from-blue-900/80 via-blue-800/70 to-blue-900/80" />
+        <div className="absolute inset-0 bg-gradient-to-br from-orange-500 via-amber-400 to-yellow-400" />
+        <div className="absolute inset-0 bg-gradient-to-r from-orange-600/60 via-amber-500/50 to-orange-600/60" />
       </div>
 
       {/* Decorative border pattern */}
@@ -31,10 +31,10 @@ export default function HeroSection() {
           <h1 className="font-serif text-5xl font-bold text-shadow-lg text-white drop-shadow-2xl mb-4 md:text-5xl">
             {templeInfo.sanskritName}
           </h1>
-          <p className="text-2xl mb-2 font-light text-amber-100 drop-shadow-lg md:text-3xl">
+          <p className="text-2xl mb-2 font-light text-white drop-shadow-lg md:text-3xl">
             {getTranslation(language, 'templeName')}
           </p>
-          <p className="text-lg md:text-xl mb-2 font-light text-amber-200 drop-shadow-lg tracking-wide">
+          <p className="text-lg md:text-xl mb-2 font-light text-white drop-shadow-lg tracking-wide">
             {getTranslation(language, 'templeAddress')}. {getTranslation(language, 'phone')} {getTranslation(language, 'templePhone')}
           </p>
         </div>
@@ -50,31 +50,31 @@ export default function HeroSection() {
         <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 md:p-6 mb-8 border border-amber-400/30 leading-7">
           <div className="text-center space-y-4 leading-3 tracking-tighter">
             <div className="flex items-center justify-center gap-2">
-              <MapPin className="text-amber-400" size={18} />
-              <span className="text-amber-200">{getTranslation(language, 'templeAddress')}</span>
+              <MapPin className="text-gray-50" size={18} />
+              <span className="text-white">{getTranslation(language, 'templeAddress')}</span>
             </div>
             <div className="flex items-center justify-center gap-2">
               <Phone className="text-amber-400" size={18} />
-              <span className="text-amber-200">{getTranslation(language, 'templePhone')}</span>
+              <span className="text-white">{getTranslation(language, 'templePhone')}</span>
             </div>
             <div className="flex items-center justify-center gap-2">
               <MessageCircle className="text-amber-400" size={18} />
-              <span className="text-amber-200">{getTranslation(language, 'whatsapp')}: {templeInfo.whatsapp}</span>
+              <span className="text-white">{getTranslation(language, 'whatsapp')}: {templeInfo.whatsapp}</span>
               <a
                 href="https://maps.app.goo.gl/EUEKYCdTaFJEX8Bg9"
                 target="_blank"
                 rel="noopener noreferrer"
                 title="Open temple location in Google Maps"
                 aria-label="Open temple location in Google Maps"
-                className="inline-flex items-center justify-center rounded-md border border-amber-400/30 bg-white/10 px-2 py-1 text-amber-100 hover:bg-white/20 hover:text-white transition-colors focus-visible:ring-2 focus-visible:ring-white/70 focus-visible:outline-none"
+                className="inline-flex items-center justify-center rounded-md border border-amber-400/30 bg-white/10 px-2 py-1 text-white hover:bg-white/20 hover:text-white transition-colors focus-visible:ring-2 focus-visible:ring-white/70 focus-visible:outline-none"
               >
                 <MapPin className="text-amber-300" size={16} />
                 <span className="ml-1 text-xs hidden sm:inline">Maps</span>
               </a>
             </div>
             <div className="flex items-center justify-center gap-2">
-              <Clock className="text-amber-400" size={18} />
-              <span className="text-amber-200">{getTranslation(language, 'templeTimings')}: {templeInfo.timings}</span>
+              <Clock className="text-[#f8f7f7]" size={18} />
+              <span className="text-white">{getTranslation(language, 'templeTimings')}: {templeInfo.timings}</span>
             </div>
           </div>
         </div>
