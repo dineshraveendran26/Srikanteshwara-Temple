@@ -76,6 +76,20 @@
   font-family: 'Noto Sans Kannada', sans-serif;
 }
 
+/* Scrolling ticker animation */
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-scroll {
+  animation: scroll 30s linear infinite;
+}
+
 /* Smooth transitions for language changes */
 * {
   transition: font-family 0.2s ease-in-out;

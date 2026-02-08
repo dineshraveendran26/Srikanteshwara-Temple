@@ -29,13 +29,17 @@ export default function EventImageCard({
 }: EventImageCardProps) {
   const altText = language === 'en' ? image.altEn : image.altKn
 
+  // Add data attribute for ticker to find and click
+  const isMahaShivaratri = image.src.includes('maha-shivaratri')
+
   return (
-    <ImageModal
-      src={image.src}
-      alt={altText}
-      className="overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-all duration-300"
-      trigger={
-        <div className="relative overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 bg-white p-2 md:p-4 group">
+    <div data-event-image={isMahaShivaratri ? 'maha-shivaratri' : undefined}>
+      <ImageModal
+        src={image.src}
+        alt={altText}
+        className="overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-all duration-300"
+        trigger={
+          <div className="relative overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 bg-white p-2 md:p-4 group cursor-pointer">
           <Image
             src={image.src}
             alt={altText}
@@ -77,7 +81,8 @@ export default function EventImageCard({
           </div>
         </div>
       }
-    />
+      />
+    </div>
   )
 }
 

@@ -1,6 +1,7 @@
 import type React from "react"
 import Footer from "@/components/footer"
 import Header from "@/components/header"
+import EventTicker from "@/components/common/EventTicker"
 import { ThemeProvider } from "@/components/theme-provider"
 import { LanguageProvider } from "@/contexts/LanguageContext"
 import { cn } from "@/lib/utils"
@@ -43,7 +44,8 @@ export default function RootLayout({
         <ThemeProvider attribute="class" defaultTheme="light" enableSystem={false} disableTransitionOnChange>
           <LanguageProvider>
             <Header />
-            <main>{children}</main>
+            <EventTicker />
+            <main className="pt-10">{children}</main>
             <Footer />
           </LanguageProvider>
         </ThemeProvider>
